@@ -1,1 +1,16 @@
 /*  css */
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
