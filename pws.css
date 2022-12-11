@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+/* https://www.youtube.com/watch?v=vNwoDkn7AIc, om te begrijpen verschil tussen place-items en place-content */
 div {
     display: grid;
     place-items: center;
