@@ -1,7 +1,7 @@
 /* Main page css */
 body {
-    background-color: #131316; /* kleur zou per blok kunnen verschillen, dus aanpassen */
-    color: #ffffff;
+    background-color: #131316; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
+    color: #ffffff; /*dit ook */
     font-family: serif;
     padding: 0;
     margin: 0;
