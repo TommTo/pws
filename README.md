@@ -5,4 +5,4 @@ Doel van onze website: geschiedenis van websites op een leuke manier aantonen, 1
 Verder, bevat de website een landing page en een link naar de mainpage
 
 Landing page is de inleiding
-Main page is de hoofd idee..
+Main page is het hoofd idee..
