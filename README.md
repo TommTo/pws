@@ -6,3 +6,7 @@ Verder, bevat de website een landing page en een link naar de mainpage
 
 Landing page is de inleiding
 Main page is het hoofd idee..
+
+
+Landing page in Line Mode Browser als er genoeg tijd voor is
+Landing page moet nog meer text erbij hebben 
