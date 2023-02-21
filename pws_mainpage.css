@@ -24,3 +24,22 @@ body {
 p{
     margin: 0;
 }
+
+.resp_design{
+    text-align: center;
+    background-color: cyan;
+}
+
+.resp_p {
+    border-style: solid;
+    border-color: purple;
+    
+} 
+
+
+/*@media screen and (max-width: 400px) {
+
+    .resp_design{
+ 
+    }
+}*/
