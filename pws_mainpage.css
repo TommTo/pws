@@ -25,9 +25,34 @@ body {
 
 .eerste_stappen{
     height: 100vh;
-    background-color: burlywood
-   
+    background-color: burlywood 
 }
+
+.snowflake {
+  position: relative;
+  top: 100px;
+  z-index: 9999;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0.8;
+  font-size: 2rem;
+  line-height: 1rem;
+  color: #fff;
+  text-shadow: 0 0 4px #fff;
+  animation: snow 5s linear infinite;
+  object-position: 57cm 24cm;
+}
+@keyframes snow {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(1000px);
+  }
+
+}
+
+/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 5 */
 
 .stage_4{
     height: 100vh;
@@ -49,29 +74,6 @@ p{
     border-color: purple;
     
 } 
-
-.snowflake {
-  position: fixed;
-  top: -10px;
-  z-index: 9999;
-  user-select: none;
-  pointer-events: none;
-  opacity: 0.8;
-  font-size: 2rem;
-  line-height: 1rem;
-  color: #fff;
-  text-shadow: 0 0 4px #fff;
-  animation: snow 5s linear infinite;
-}
-@keyframes snow {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(100vh);
-  }
-}
-
 
 
 
