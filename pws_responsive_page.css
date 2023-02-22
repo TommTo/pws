@@ -1,4 +1,23 @@
-.slideshow-container {
+* {
+    box-sizing:border-box
+}
+
+
+body {
+    background-color: #EEEEEE; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
+    color: black; /*dit ook */
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #658864;
+}
+
+.container {
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -6,10 +25,10 @@
 
 
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 20px 12px;
-    position: absolute;
+    color: #658864;
+    font-size: 30px;
+    padding: 8px 12px;
+    padding-bottom: 10px;
     bottom: 8px;
     width: 100%;
     text-align: center;
