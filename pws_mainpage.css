@@ -11,26 +11,28 @@ body {
     padding: 0;
     margin: 0;
 }
-
+/* 1991 */
 .stage_1{
     height: 100vh;
     background-color: white;
     margin: 14px;
 }
 
+/* 1993 */
 .stage_2{
     height: 100vh;
     background-color: rgb(215, 176, 147);
 }
 
+/*1995-1996*/
 .eerste_stappen{
     height: 100vh;
-    background-color: burlywood 
+    background-color: coral;
 }
 
 .snowflake {
-  position: relative;
-  top: 100px;
+  position: fixed;
+  top: -10px;
   z-index: 9999;
   user-select: none;
   pointer-events: none;
@@ -40,19 +42,22 @@ body {
   color: #fff;
   text-shadow: 0 0 4px #fff;
   animation: snow 5s linear infinite;
-  object-position: 57cm 24cm;
+
 }
 @keyframes snow {
   0% {
     transform: translateY(-100%);
   }
   100% {
-    transform: translateY(1000px);
+    transform: translateY(100vh);
   }
-
 }
 
+
+
 /* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 5 */
+
+
 
 .stage_4{
     height: 100vh;
@@ -63,6 +68,8 @@ p{
     margin: 0;
 }
 
+
+/* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .resp_design{
     text-align: center;
     background-color: cyan;
@@ -74,17 +81,12 @@ p{
     border-color: purple;
     
 } 
-
-
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -121,10 +123,9 @@ p{
 
 /* Caption text */
 .capText {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -132,10 +133,9 @@ p{
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
   top: 0;
 }
 
@@ -166,6 +166,20 @@ p{
   to {opacity: 1}
 }
 
+/*images */
+#img_ipad{
+  max-width: 820px;
+ }
+ 
+#img_iphone{
+
+  max-width: 390px;
+
+ }
+
+.resp_images{
+  max-height: 540px;
+ }
 
 /*@media screen and (max-width: 400px) {
 
@@ -173,3 +187,5 @@ p{
  
     }
 }*/
+
+
