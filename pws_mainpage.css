@@ -28,10 +28,11 @@ body {
 .eerste_stappen{
     height: 100vh;
     background-color: coral;
+    background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
 }
 
 .snowflake {
-  position: fixed;
+  position: relative;
   top: -10px;
   z-index: 9999;
   user-select: none;
@@ -51,6 +52,11 @@ body {
   100% {
     transform: translateY(100vh);
   }
+}
+
+.bg-aloha_na_babkah {
+  width: 518px; height: 466px;
+  background: url('css_sprites.png') -10px -10px;
 }
 
 
