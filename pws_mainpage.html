@@ -27,7 +27,7 @@
         <p>Eerste afbeelding ooit op het internet.</p>
     </div>
 
-    <div class="stage_3">
+    <div class="eerste_stappen" style="overflow:hidden">
         <p>In 1995-1996 HTML en JavaScript werden wijd gebruikt voor webontwikkeling en interactieve componenten van websites, voorbeelden daarvan zijn HTML-tabellen en bewegingselementen van JS.</p>
 
         <table>
@@ -45,6 +45,23 @@
                <td>160 cm</td>
             </tr>
          </table>
+
+         <script>
+            for (let i = 0; i < 50; i++) {
+              let snowflake = document.createElement("div");
+              snowflake.innerHTML = "&#10052;";
+              snowflake.className = "snowflake";
+              snowflake.style.left = `${Math.random() * window.innerWidth}px`;
+              snowflake.style.animationDelay = `${Math.random() * 5}s`;
+              document.body.appendChild(snowflake);
+            }
+          </script>
+
+      
+
+        
+
+
     </div>
         <!--voorbeeld van een tabel die we kunnen gebruiken-->
 
