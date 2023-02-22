@@ -1,4 +1,9 @@
 /* Main page css */
+* {
+    box-sizing:border-box
+}
+
+
 body {
     background-color: white; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
     color: black; /*dit ook */
@@ -10,7 +15,6 @@ body {
 .stage_1{
     height: 100vh;
     background-color: white;
-    box-sizing: border-box;
     color: black;
     margin: 14px;
 }
@@ -18,7 +22,15 @@ body {
 .stage_2{
     height: 100vh;
     background-color: rgb(215, 176, 147);
-    box-sizing: border-box;
+}
+
+.stage_3{
+    height: 100vh;
+}
+
+.stage_4{
+    height: 100vh;
+    background-color: rgb(215, 176, 147);
 }
 
 p{
@@ -28,6 +40,7 @@ p{
 .resp_design{
     text-align: center;
     background-color: cyan;
+    height: 100vh; 
 }
 
 .resp_p {
@@ -37,7 +50,7 @@ p{
 } 
 
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
