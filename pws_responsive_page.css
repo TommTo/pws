@@ -17,6 +17,10 @@ h1 {
     color: #658864;
 }
 
+.first_p{
+    margin-top: 0px;
+}
+
 .container {
     max-width: 1000px;
     position: relative;
@@ -47,7 +51,7 @@ h1 {
 
   @media (max-width: 820px) {
   .container {
-    max-width: 700px;
+    max-width: 770px;
     position: relative;
     margin: auto;
   }
@@ -79,6 +83,12 @@ h1 {
         padding: 8px 12px;
         position: absolute;
         top: 0;
+    }
+
+    p{
+        max-width: 100%;
+        padding: 0px 6px;
+        font-size: 19px;
     }
   }
 
