@@ -150,46 +150,59 @@ p{
 
 /*1995-1996*/
 .stage_3 {
-
+  position: relative;
   text-align: left;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   background-color: rgba(0,0,0,0.8);
   background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
   background-size: cover;
   color: white;
-  
+  align-items: center;
 }
 /*html tabel vanaf hier*/
 /*centreren van tabel*/
 .center {
+  margin-top: 140px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(48, 41, 93, 0.5);
+
 }
 
-.snowflake {
-  position: relative;
-  top: -10px;
-  z-index: 9999;
-  user-select: none;
-  pointer-events: none;
-  opacity: 0.8;
-  font-size: 2rem;
-  line-height: 1rem;
-  color: #fff;
-  text-shadow: 0 0 4px #fff;
-  animation: snow 5s linear infinite;
+.snow, .snow2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.ibb.co/DbKS19P/snow.png);
+  background-position: 0 0;
 }
 
-@keyframes snow {
-  0% {
-    transform: translateY(-100%);
-  }
+.snow {
+  background-size: 70em;
+  animation: 
+    snowfall 30s linear infinite;
+}
+
+.snow2 {
+  background-size: 50em;
+  animation:
+    snowfall2 30s linear infinite;
+  opacity: 0,5;
+}
+
+
+@keyframes snowfall {
   100% {
-    transform: translateY(100vh);
+    background-position: 70em 70em;
   }
 }
-
+@keyframes snowfall2 {
+  100% {
+    background-position: 50em 0;
+  }
+}
 
 /* parallax.. meer ruimte kan gecreerd wordend door height te veranderen !!!!!!!!!!!!!!!!*/
 .parallax {
@@ -202,6 +215,15 @@ p{
 }
 
 
+
+/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 5 */
+
+
+
+
+p{
+    margin: 0;
+}
 
 
 /* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
