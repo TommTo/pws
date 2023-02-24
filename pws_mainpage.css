@@ -53,32 +53,48 @@ body {
   background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
   background-size: cover;
   color: white;
-  
+  align-items: center;
 }
 
-.snowflake {
-  position: relative;
-  top: -10px;
-  z-index: 9999;
-  user-select: none;
-  pointer-events: none;
-  opacity: 0.8;
-  font-size: 2rem;
-  line-height: 1rem;
+.snow, .snow2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.ibb.co/DbKS19P/snow.png);
+  background-position: 0 0;
+}
+
+.snow {
+  background-size: 70em;
+  animation: 
+    snowfall 30s linear infinite;
+}
+
+.snow2 {
+  background-size: 50em;
+  animation:
+    snowfall2 30s linear infinite;
+  opacity: 0,5;
+}
+
+.text{
   color: #fff;
-  text-shadow: 0 0 4px #fff;
-  animation: snow 5s linear infinite;
-}
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 
-@keyframes snow {
-  0% {
-    transform: translateY(-100%);
-  }
+}
+@keyframes snowfall {
   100% {
-    transform: translateY(100vh);
+    background-position: 70em 70em;
   }
 }
-
+@keyframes snowfall2 {
+  100% {
+    background-position: 50em 0;
+  }
+}
 
 
 /* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 4 */
