@@ -1,34 +1,47 @@
 /* Main page css */
 * {
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
-
 body {
-    background-color: white; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
+  /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
     color: black; /*dit ook */
     font-family: serif;
     padding: 0;
     margin: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    width: 100%;
+    max-width: 100vw;
 }
 /* 1991 */
-.stage_1{
+.stage_1 {
     height: 100vh;
     background-color: white;
-    margin: 14px;
+    margin: -1px;;
 }
 
 /* 1993 */
-.stage_2{
-    height: 100vh;
-    background-color: rgb(215, 176, 147);
+.stage_2 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(215, 176, 147);
+  max-width: 100vw;
+  margin:-1px;
+}
+
+.stage_2 p {
+  text-align: center;
 }
 
 /*1995-1996*/
-.eerste_stappen{
-    height: 100vh;
-    background-color: coral;
-    background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
+.stage_3 {
+  height: 100vh;
+  background-color: coral;
+  background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
+  max-width: 100vw;
+  margin:-1px;
 }
 
 .snowflake {
@@ -43,6 +56,7 @@ body {
   color: #fff;
   text-shadow: 0 0 4px #fff;
   animation: snow 5s linear infinite;
+  margin: -1px;
 
 }
 @keyframes snow {
@@ -54,29 +68,43 @@ body {
   }
 }
 
-.bg-aloha_na_babkah {
-  width: 518px; height: 466px;
-  background: url('css_sprites.png') -10px -10px;
+
+
+/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 4 */
+
+
+/* stage 4 en 5 worden vanaf nu gebruikt voor de parallax scrolling effect */
+
+
+.stage_4 {
+  max-width: 100vw;
+  height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+  background-image: url("https://media.discordapp.net/attachments/940686231933714443/1078597610471964702/Mountain.png?width=705&height=353");
+  background-size: cover;
+  margin:-1px;
 }
 
 
-
-/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 5 */
-
-
-
-.stage_4{
-    height: 100vh;
-    background-color: rgb(215, 176, 147);
+.stage_5 {
+  max-width: 100vw;
+  height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+  background-color: aqua;
+  margin:-1px;
 }
+
+
 
 p{
-    margin: 0;
+  margin: 0;
 }
 
 
-/* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .resp_design{
+  
     text-align: center;
     background-color: cyan;
     height: 100vh; 
