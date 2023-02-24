@@ -11,30 +11,67 @@
 
     <link rel="stylesheet" href="pws_mainpage.css">
     <script defer src="pws_mainpage.js"></script>
-    <style>
-        img {
-         max-width: 70%;
-         max-height: 60%;
-        }
-    </style>
 
 </head>
 
 <body>
     <div class="stage_1">
-        <h1>World Wide Web</h1>
-        <p style="position:absolute; left:25px; top:100px; ">Eerste websites bestonden alleen uit tekst en <a href="aa">hyperlinks</a>. <br>Het doel van de eerste website was om te schetsen hoe webpagina's gemaakt kunnen worden en om meer uitleg te geven over <a href="https://en.wikipedia.org/wiki/Hyperlink#:~:text=In%20computing%2C%20a%20hyperlink%2C%20or,Hypertext%20is%20text%20with%20hyperlinks." target="_blank">hypertekst.</a><br>
+            <h1 id="first_ever_h1">World Wide Web</h1>
+            <p>Eerste websites bestonden alleen uit tekst en <a href="aa">hyperlinks</a></p>
 
-                Het ontwerp van websites heeft een lange weg afgelegd sinds de eenvoudige zwart-wit van de <a href="http://info.cern.ch" target="_blank">eerste website.</a> De nadruk bij het maken van een goede website ligt niet meer alleen op functionaliteit.<br> De ervaring van de gebruiker speelt tegenwoordig ook een heel groot rol bij het maken van websites. Daardoor zijn websites steeds meer user friendly en interactief geworden.
-        </p> 
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> <img src="https://tinyurl.com/3638metd" alt="user friendly" style="width: 400px; height: 400px; position:relative; top:400px; left:400px"></a>
-        <a href="https://www.youtube.com/watch?v=qsfDYkyMGFo" target="_blank"> <img src="https://tinyurl.com/r47h73c2" alt="interactive" style="width:500px; height: 400px; position:relative; left:800px; top:400px;"></a>
     </div>
-            <!-- voorbeeld van images die ook links zijn-->
+
+<!--Dit behandelt de introductie van CSS, hoe het was voor CSS en na.-->    
+<div class="css_intro">
+
+ <h1>Behind the scenes</h1>
+    <div class="intro_htmlonly">
+             <img src="https://i.imgur.com/TeIwlRd.png">
+    </div>
+
+    <div class="intro_slideshow">
+        
+        <div class="intro_slides fade"></div>
+            <div class="intro_numbers">1 / 2</div>
+                <img src="https://i.imgur.com/HH0cOFi.png" class="intro_slide_img">
+            <div class="intro_captext">HTML file</div>
+        
+
+            
+        <div class="intro_slides fade"></div>
+            <div class="intro_numbers">2 / 2</div>
+                <img src="https://i.imgur.com/yYJ5JYA.png" class="intro_slide_img">
+            <div class="intro_captext">CSS file</div> 
+<!-- Next and previous buttons -->
+
+    <a class="intro_prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="intro_next" onclick="plusSlides(1)">&#10095;</a>   
+    </div>
+        
+</div>
+<!--Dit is de page segment voor mtv landing page-->   
+    <div class='mtv_parent'>    
+<!--Dit is de div voor de background, elementen hierin plaatsen anders gedraagt de backgorund raar als je ze in de mtv_parent plaatst-->
+        <div class="mtv_child">
+            <div class="mtv_image">
+                <img src="https://static.wikia.nocookie.net/logopedia/images/b/bb/Uncle.gif/revision/latest?cb=20171019003921" id="mtv_image"> 
+                <a href="https://www.mtv.com/live-tv/xzq4o4" id="mtv_link">This bites...click to go to MTV Online</a> 
+            </div>
+
+
+           
+
+            <p>Dit is hoe de landing page van MTV eruitzag in 1996. MTV was een van de eerste corporatie die gebruik maakte van Landing Pages op de World Wide Web. Met doel onder andere advertentie, 
+            adverteren kon nu ook op het internet.
+            </p> 
+        </div>
+    </div>
+
+
     <div class="stage_2">
 
-     <img src = "https://gumlet.assettype.com/bloombergquint%2F2016-07%2Ff0da0726-27c1-4cdc-9e99-790d544639ab%2FThe-first-picture-ever-uploaded-on-the-web-was-posted-by-Tim-Burners-Lee-inventor-of-the-World-Wide-Web-on-behalf-of-a-comedy-band-called-Les-Horrible-Cernettes-.jpg?rect=0%2C0%2C1024%2C576&auto=format%2Ccompress&w=800">Eerste afbeelding ooit op het internet. <br>Een promotionele foto van Les Horribles Cernettes, <br>een komische muzikale groep bestaande uit vriendinnen en secretarissen van CERN-wetenschappers, <br>werd de eerste foto ooit die verscheen op het internet.</p>
-   
+        <img src = "https://gumlet.assettype.com/bloombergquint%2F2016-07%2Ff0da0726-27c1-4cdc-9e99-790d544639ab%2FThe-first-picture-ever-uploaded-on-the-web-was-posted-by-Tim-Burners-Lee-inventor-of-the-World-Wide-Web-on-behalf-of-a-comedy-band-called-Les-Horrible-Cernettes-.jpg?rect=0%2C0%2C1024%2C576&auto=format%2Ccompress&w=800">
+        <p>Eerste afbeelding ooit op het internet.</p>
     </div>
 
     <div class="stage_3">
@@ -106,15 +143,15 @@
         
             <div class="title">Voorbeeld van een parallax-scrolling</div>
         </div>
-    
-    
-        <div class="stage_5">
-            <div class="title">andere tekst</div>
-        </div>
-    
+        <!--voorbeeld van een tabel die we kunnen gebruiken-->
 
-    <!-------------------------------------->
 
+    <div class="stage_4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus, explicabo ex laborum, quis blanditiis ipsam molestias, excepturi facere ducimus itaque vitae doloremque! Magni soluta vero neque eos, sit provident.</p>
+    </div>
+
+
+    <!--Responsive design circa 2010-2015-->
     <div class="resp_design">
         <h1>Responsive Deisgn</h1>
         <!-- Slideshow container -->
@@ -124,19 +161,19 @@
          <!--De foto's hier worden straks screenshots van onze responsive design-->
          <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-                <img class="resp_images" src="https://i.imgur.com/tKp361l.png" style="width:100%">
+                <img class="resp_images" src="https://i.imgur.com/tKp361l.png">
             <div class="capText">Computerscherm Grootte</div>
         </div>
   
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-                <img class="resp_images" id="img_ipad" src="https://i.imgur.com/xJm4UmI.png" style="width:100%">
+                <img class="resp_images" id="img_ipad" src="https://i.imgur.com/xJm4UmI.png">
             <div class="capText">iPad Air Grootte</div>
         </div>
   
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-                <img class="resp_images" id="img_iphone" src="https://i.imgur.com/ywuuAXF.png" style="width:100%">
+                <img class="resp_images" id="img_iphone" src="https://i.imgur.com/ywuuAXF.png">
             <div class="capText">iPhone 12 Pro Grotte</div>
         </div>
   
