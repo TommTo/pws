@@ -140,13 +140,20 @@ p{
   height: 60vh;
 }
 
-#mtv_link{
-  color: black;
-  padding-top: 10vh;
+#mtv_link_container {
   text-align: center;
 }
+#mtv_link{
+  color: black;
+  display: inline-block;
+  margin: 4vh;
+}
 
-
+#mtv_p{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
 
 /*1995-1996*/
 .stage_3 {
