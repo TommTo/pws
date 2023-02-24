@@ -117,6 +117,13 @@ p{
     background-color: rgb(215, 176, 147);
 }
 
+#stage_img{
+  width: 150px;
+  height: 100px;
+  position: relative;
+  
+}
+
 /*Landing page design!!!!!!!!!!!!!!!!!!!!!*/
 /*1996*/
 .mtv_parent{
