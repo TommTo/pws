@@ -17,12 +17,16 @@ body {
     margin: 0;
 }
 
+p{
+  margin: 0;
+}
+
 /* vanaf hier begint het per blok*/
 /* 1991 */
 /*eerste website ooit*/
 .stage_1{
     height: 100vh;
-    background-color: violet;
+    background-color: rgb(255, 255, 255);
     margin: 14px;
     margin-bottom: 0px;
 
@@ -107,7 +111,7 @@ body {
     background-color: rgb(215, 176, 147);
 }
 
-/*Landing page design*/
+/*Landing page design!!!!!!!!!!!!!!!!!!!!!*/
 /*1996*/
 .mtv_parent{
   height: 100vh;
@@ -117,7 +121,7 @@ body {
   height: 100%;
   background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/blueandrednautical-11-091815-145_thumb.jpg');
   background-position: center;
-  background-size: 136vh;
+  background-size: 150vh;
 
 }
 
@@ -126,7 +130,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1vh;
-  width: 40%;
+  width: 60vh;
+  height: 60vh;
 }
 
 #mtv_link{
@@ -179,34 +184,17 @@ body {
 }
 
 
-
-/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 4 */
-
-
-/* stage 4 en 5 worden vanaf nu gebruikt voor de parallax scrolling effect */
-
-
-.stage_4 {
+/* parallax.. meer ruimte kan gecreerd wordend door height te veranderen !!!!!!!!!!!!!!!!*/
+.parallax {
   position: relative;
   transform-style: preserve-3d;
   background-image: url("https://media.discordapp.net/attachments/940686231933714443/1078597610471964702/Mountain.png?width=705&height=353");
   background-size: cover;
+  height: 200vh;
+  background-color: rgb(215, 176, 147);
 }
 
 
-
-/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 5 */
-
-
-
-.stage_4{
-    height: 100vh;
-    background-color: rgb(215, 176, 147);
-}
-
-p{
-    margin: 0;
-}
 
 
 /* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
