@@ -18,8 +18,8 @@ body {
 }
 
 p{
-  margin: 0;
   text-align: center;
+  margin: auto;
 }
 
 /* vanaf hier begint het per blok*/
@@ -40,6 +40,10 @@ p{
 
 #first_ever_p{
   text-align: left;
+}
+
+#first_ever_dl{
+  padding-top: 10vh;
 }
 
 /*intro CSS*/
@@ -112,11 +116,56 @@ p{
 
 
 /* 1993 */
+/*de fotos in stage 2*/
 .stage_2{
     height: 100vh;
     background-color: rgb(215, 176, 147);
 }
 
+.rij{
+  display:flex;
+}
+
+.rij::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.kolom {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+ 
+}
+
+#girls{
+  height:60vh;
+  width: 60vh;
+  padding-left: 5vh;
+  margin-left: 10vh;
+}
+
+#girls_cap{
+  margin-left: 10vh;
+}
+
+#kittens{
+  height: 60vh;
+  width: 60vh;
+  margin-left: 30vh;
+
+}
+
+#kittens_cap{
+  margin-left: 30vh;
+}
+
+
+/*GEEN IDEE WAT DIT IS.. ISKANDER??*/
 #stage_img{
   width: 150px;
   height: 100px;
@@ -228,28 +277,16 @@ p{
   background-color: rgb(215, 176, 147);
 }
 
-
-
-/* css voor snowflakes, de positie moet nog verandert worden, momenteel zit hij bij stage 5 */
-
-
-
-
-p{
-    margin: 0;
-}
-
-
 /* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .resp_design{
     text-align: center;
-    background-color: cyan;
+    background-color: #eeeeeea0;
     height: 100vh; 
 }
 
 .resp_p {
-    border-style: solid;
-    border-color: purple;
+     width:60vh;
+     padding-top: 5vh;
     
 } 
 /* Slideshow container */
@@ -283,7 +320,7 @@ p{
 
 /* Position the "next button" to the right */
 .next {
-  right: -27px;
+  right: -21px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -351,6 +388,9 @@ p{
 
 .resp_images{
   max-height: 540px;
+  border-style: solid;
+  border-color: rgb(47, 6, 47);
+
  }
 
 /*@media screen and (max-width: 400px) {

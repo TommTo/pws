@@ -1,0 +1,75 @@
+
+* {
+    box-sizing:border-box
+}
+
+body {
+    background-color: white; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
+    color: black; /*dit ook */
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+  }
+
+h1{
+    text-align: center;
+    margin:auto;
+}
+
+/*blokken*/
+.css_intro{
+    max-height:100vh;
+}
+
+/*hier*/
+.stage_2{
+    height: 100vh;
+}
+
+.rij{
+  display:flex;
+}
+
+.rij::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.kolom {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+ 
+}
+
+#girls{
+  height:60vh;
+  width: 60vh;
+  padding-left: 5vh;
+  margin-left: 10vh;
+}
+
+#girls_cap{
+  margin-left: 10vh;
+}
+
+#kittens{
+  height: 60vh;
+  width: 60vh;
+  margin-left: 30vh;
+
+}
+
+#kittens_cap{
+  margin-left: 30vh;
+}
+
