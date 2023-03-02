@@ -269,13 +269,29 @@ p{
 
 /* parallax.. meer ruimte kan gecreerd wordend door height te veranderen !!!!!!!!!!!!!!!!*/
 .parallax {
-  position: relative;
-  transform-style: preserve-3d;
-  background-image: url("https://media.discordapp.net/attachments/940686231933714443/1078597610471964702/Mountain.png?width=705&height=353");
+  background-image: url('https://media.discordapp.net/attachments/940686231933714443/1078597610471964702/Mountain.png?width=1352&height=676');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
-  background-color: rgb(215, 176, 147);
+
 }
+
+.text-wrapper {
+  background-image: url('https://media.discordapp.net/attachments/940686231933714443/1078597659276881960/Trees.png');
+  height: 100vh;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 60px;
+  font-family: sans-serif;
+  color: aquamarine;
+}
+
+
 
 /* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .resp_design{

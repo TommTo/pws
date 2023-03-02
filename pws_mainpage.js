@@ -27,6 +27,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
 /*
 let intro_slideIndex = 1;
 intro_showSlides(intro_slideIndex);
