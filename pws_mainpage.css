@@ -215,7 +215,6 @@ p{
 .stage_3 {
   position: relative;
   text-align: left;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   background-color: rgba(0,0,0,0.8);
   background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
   background-size: cover;
@@ -228,7 +227,7 @@ p{
   margin-top: 140px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(48, 41, 93, 0.5);
+  background-color: rgba(0, 0, 0, 0.534);
 
 }
 
@@ -271,6 +270,7 @@ p{
 .parallax {
   background-image: url('https://media.discordapp.net/attachments/940686231933714443/1078597610471964702/Mountain.png?width=1352&height=676');
   height: 100vh;
+  width: 100vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -281,16 +281,32 @@ p{
 .text-wrapper {
   background-image: url('https://media.discordapp.net/attachments/940686231933714443/1078597659276881960/Trees.png');
   height: 100vh;
+  width: 100vw;
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  font-size: 60px;
-  font-family: sans-serif;
-  color: aquamarine;
 }
 
+.titleparallax {
+  width: 100vw;
+  font-family: Century;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+.verhaalparallax {
+  width: 100%;
+  font-family: Century;
+  font-size: 30px;
+  position: relative;
+  bottom: 250px;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
 
 
 /* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
