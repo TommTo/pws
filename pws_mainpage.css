@@ -26,7 +26,7 @@ p{
 /* 1991 */
 /*eerste website ooit*/
 .stage_1{
-    height: 100vh;
+    height: 110vh;
     background-color: rgb(255, 255, 255);
     margin: 14px;
     margin-bottom: 0px;
@@ -118,7 +118,7 @@ p{
 /* 1993 */
 /*de fotos in stage 2*/
 .stage_2{
-    height: 100vh;
+    height: 120vh;
     background-color: rgb(215, 176, 147);
 }
 
@@ -146,11 +146,6 @@ p{
   height:60vh;
   width: 60vh;
   padding-left: 5vh;
-  margin-left: 10vh;
-}
-
-#girls_cap{
-  margin-left: 10vh;
 }
 
 #kittens{
@@ -220,6 +215,7 @@ p{
   background-size: cover;
   color: white;
   align-items: center;
+  height: 150vh;
 }
 /*html tabel vanaf hier*/
 /*centreren van tabel*/
@@ -269,7 +265,7 @@ p{
 /* parallax.. meer ruimte kan gecreerd wordend door height te veranderen !!!!!!!!!!!!!!!!*/
 .parallax {
   background-image: url('https://media.discordapp.net/attachments/940686231933714443/1078597610471964702/Mountain.png?width=1352&height=676');
-  height: 100vh;
+  height: 400vh;
   width: 100vw;
   background-attachment: fixed;
   background-position: center;
@@ -280,7 +276,7 @@ p{
 
 .text-wrapper {
   background-image: url('https://media.discordapp.net/attachments/940686231933714443/1078597659276881960/Trees.png');
-  height: 100vh;
+  height: 400vh;
   width: 100vw;
   background-attachment: scroll;
   background-position: center;
@@ -294,16 +290,16 @@ p{
   position: relative;
   top: 150px;
   text-align: center;
-  font-size: 7rem;
+  font-size: 30px;
   color: white;
   text-shadow: 0 0 5px black;
 }
 .verhaalparallax {
-  width: 100%;
+  width: 80%;
   font-family: Century;
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
-  bottom: 250px;
+  bottom: 80%;
   color: white;
   text-shadow: 0 0 5px black;
 }
@@ -313,7 +309,7 @@ p{
 .resp_design{
     text-align: center;
     background-color: #eeeeeea0;
-    height: 100vh; 
+    height: 125vh; 
 }
 
 .resp_p {
