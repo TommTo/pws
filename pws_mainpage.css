@@ -208,9 +208,10 @@ p{
   height: 100vh;
 }
 .text_sneuuw {
+  font-size: 0.7982969664715274vw;
   width: 80vh;
   position: relative;
-  top: 420px;
+  top: 22.352315061202766vw;
   color: black;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
@@ -219,8 +220,9 @@ p{
 /*html tabel vanaf hier*/
 /*centreren van tabel*/
 .center {
+  font-size: 0.7982969664715274vw;
   position: relative;
-  bottom: 340px;
+  bottom: 5.32197977647685vw;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.534);
@@ -267,7 +269,6 @@ p{
   display: inline-block;
   text-align: center;
   position: relative;
-  bottom: 300px;
 }
 
 .Mc_image {
@@ -275,23 +276,22 @@ p{
   text-align: center; 
   float: right;
   position: relative;
-  bottom: 300px;
 }
 
 #flash {
   position: relative;
-  bottom: 200px;
-  width: 500px;
-  height: 400px;
+  width: 26.609898882384247vw;
+  height: 21.2879191059074vw;
   float: left;
+  max-width: 100%;
 }
 
 #Mc {
-  width: 500px;
-  height: 400px;
-  float: right;
   position: relative;
-  bottom: 200px;
+  width: 26.609898882384247vw;
+  height: 21.2879191059074vw;
+  float: right;
+  max-width: 100%;
 }
 
 /* svg stage */
@@ -305,10 +305,11 @@ p{
 }
 
 .text_svg {
+  font-size: 0.7982969664715274vw;
   width: 80vh;
   text-align: left;
   position: relative;
-  top: 200px;
+  top: 10.6439595529537vw;
   color: black;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
