@@ -210,20 +210,43 @@ p{
 .stage_3 {
   position: relative;
   text-align: left;
-  background-color: rgba(0,0,0,0.8);
-  background-image: url("https://media.discordapp.net/attachments/560576671225479212/1078062370569601064/aloha_na_babkah_adobe_express.png");
+  background-color: rgba(46, 151, 221, 0.863);
+  background-image: url("https://cdn.discordapp.com/attachments/940686231933714443/1081918972817068082/200617-D-ZW071-0002.png");
   background-size: cover;
-  color: white;
-  align-items: center;
+  background-size: 100vw;
+  background-repeat:no-repeat;
+  color: black;
   height: 150vh;
+}
+
+.stage_3:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.15);
+}
+
+.text_svg {
+  width: 80vh;
+  text-align: left;
+  position: relative;
+  top: 900px;
+  color: black;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 /*html tabel vanaf hier*/
 /*centreren van tabel*/
 .center {
-  margin-top: 140px;
+  position: relative;
+  bottom: 20.5%;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(0, 0, 0, 0.534);
+  background-color: rgba(255, 255, 255, 0.534);
 
 }
 
