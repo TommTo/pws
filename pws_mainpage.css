@@ -160,13 +160,7 @@ p{
 }
 
 
-/*GEEN IDEE WAT DIT IS.. ISKANDER??*/
-#stage_img{
-  width: 150px;
-  height: 100px;
-  position: relative;
-  
-}
+
 
 /*Landing page design!!!!!!!!!!!!!!!!!!!!!*/
 /*1996*/
@@ -209,31 +203,14 @@ p{
 /*1995-1996*/
 .stage_3 {
   position: relative;
-  text-align: left;
-  background-color: rgba(46, 151, 221, 0.863);
-  background-image: url("https://cdn.discordapp.com/attachments/940686231933714443/1081918972817068082/200617-D-ZW071-0002.png");
-  background-size: cover;
-  background-size: 100vw;
-  background-repeat:no-repeat;
+  background-color: rgb(228, 201, 112);
   color: black;
-  height: 150vh;
+  height: 100vh;
 }
-
-.stage_3:before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0,0,0,0.15);
-}
-
-.text_svg {
+.text_sneuuw {
   width: 80vh;
-  text-align: left;
   position: relative;
-  top: 900px;
+  top: 420px;
   color: black;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
@@ -243,7 +220,7 @@ p{
 /*centreren van tabel*/
 .center {
   position: relative;
-  bottom: 20.5%;
+  bottom: 340px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.534);
@@ -283,6 +260,59 @@ p{
   100% {
     background-position: 50em 0;
   }
+}
+
+.flash_image {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+}
+
+.Mc_image {
+  vertical-align: top;
+  text-align: center; 
+  float: right;
+  position: relative;
+  bottom: 300px;
+}
+
+#flash {
+  position: relative;
+  bottom: 200px;
+  width: 500px;
+  height: 400px;
+  float: left;
+}
+
+#Mc {
+  width: 500px;
+  height: 400px;
+  float: right;
+  position: relative;
+  bottom: 200px;
+}
+
+/* svg stage */
+.svg_stage {
+  height: 100vh;
+  background-image: url("https://cdn.discordapp.com/attachments/940686231933714443/1081918972817068082/200617-D-ZW071-0002.png");
+  background-size: cover;
+  background-size: 100vw;
+  background-repeat:no-repeat;
+  height: 150vh;
+}
+
+.text_svg {
+  width: 80vh;
+  text-align: left;
+  position: relative;
+  top: 200px;
+  color: black;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 /* parallax.. meer ruimte kan gecreerd wordend door height te veranderen !!!!!!!!!!!!!!!!*/
