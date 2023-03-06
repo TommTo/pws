@@ -1,3 +1,4 @@
+//For the responsive website slideshow
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,33 +28,21 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
-/*
+//For the HTML + CSS slideshow
 let intro_slideIndex = 1;
-intro_showSlides(intro_slideIndex);
+showDivs(intro_slideIndex);
 
-// Next/previous controls
-function intro_plusSlides(n) {
-  intro_showSlides(intro_slideIndex += n);
+function plusDivs(n) {
+  showDivs(intro_slideIndex += n);
 }
 
-// Thumbnail image controls
-function intro_currentSlide(n) {
-  intro_showSlides(intro_slideIndex = n);
-}
-
-function intro_showSlides(n) {
-  let i;
-  let intro_slides = document.getElementsByClassName("intro_slides");
-  //let dots = document.getElementsByClassName("dot");
-  if (n > intro_slides.length) {intro_slideIndex = 1}
-  if (n < 1) {intro_slideIndex = intro_slides.length}
-  for (i = 0; i < intro_slides.length; i++) {
-    intro_slides[i].style.display = "none";
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("intro_slides");
+  if (n > x.length) {intro_slideIndex = 1}
+  if (n < 1) {intro_slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
- //for (i = 0; i < dots.length; i++) {
-  //  dots[i].className = dots[i].className.replace(" active", "");
-  //}
-  intro_slides[intro_slideIndex-1].style.display = "block";
-//  dots[slideIndex-1].className += " active";
-}/*/
+  x[intro_slideIndex-1].style.display = "block";
+}
