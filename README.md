@@ -10,3 +10,12 @@ Main page is het hoofd idee..
 
 Landing page in Line Mode Browser als er genoeg tijd voor is
 Landing page moet nog meer text erbij hebben 
+
+
+---
+
+for de landing page
+een knop dat alles verstopt totdat het geklikt is. 
+dan begint de simulatie
+
+als een knop niet werkt een alert. en dan moet een bepaalde joke wachtwoord getypt worden offzoooo.. 
