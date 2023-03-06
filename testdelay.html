@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="main_link" style=>Hey this is saruque</p>
+<script>
+    let mainLink = document.getElementById('main_link')
+    let time = 1000 // time in milliseconds
+    mainLink.hidden = true // set link to hidden on load
+    setTimeout(()=> {
+      mainLink.hidden = false // after timeout show link
+    }, time)
+  </script>
+</body>
+</html>
