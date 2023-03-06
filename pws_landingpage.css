@@ -1,5 +1,5 @@
 /*  css */
-body {
+/*body {
     background-color: #131316;
     color: #ffffff;
     font-family: serif;
@@ -8,10 +8,44 @@ body {
 }
 
 /* https://www.youtube.com/watch?v=vNwoDkn7AIc, om te begrijpen verschil tussen place-items en place-content */
-div {
+/*div {
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 
 }
+
+/* GLOBAL STYLES */
+body {
+    background: black;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    color: rgb(0, 255, 0);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid greenyellow; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 0.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 255, 0) }
+  }
