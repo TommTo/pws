@@ -10,11 +10,11 @@ h1 {
 }
 
 body {
-    background-color: white; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
-    color: black; /*dit ook */
-    font-family: serif;
-    padding: 0;
-    margin: 0;
+  background-color: white; /* kleur gaat per blok moeten verschillen, dus dit wordt straks weggedaan */
+  color: black; /*dit ook */
+  font-family: serif;
+  padding: 0;
+  margin: 0;
 }
 
 p {
@@ -26,11 +26,11 @@ p {
 /* 1991 */
 /*eerste website ooit*/
 .stage_1{
-    height: 110vh;
-    background-color: rgb(255, 255, 255);
-    margin: 14px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+  height: 110vh;
+  background-color: rgb(255, 255, 255);
+  margin: 14px;
+  margin-bottom: 0px;
+  margin-right: 0px;
 
 }
 
@@ -40,17 +40,32 @@ p {
 
 #first_ever_p{
   text-align: left;
+  font-family: Georgia, serif;
+  font-size: 0.7982969664715274vw;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #first_ever_dl{
   padding-top: 10vh;
+  font-family: Georgia, serif;
+  font-size: 0.7982969664715274vw;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 /* 1993 */
 /*de fotos in stage 2*/
 .stage_2{
-    height: 120vh;
-    background-color: rgb(215, 176, 147);
+  height: 120vh;
+  background-color: #8AAAE5;
+  font-family: Georgia, serif;
+  font-size: 0.7982969664715274vw;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .rij{
@@ -90,7 +105,21 @@ p {
 /* Hide the images by default */
 
 .css_intro{
+  color: white;
   height: 120vh;
+  background-image: url(https://wallpapercave.com/wp/wp3441238.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_css_intro {
+  position: relative;
+  top: 5.32197977647685vw;
+  padding-top:3vh; 
+  width:80vh; 
+  font-family: Georgia, serif; 
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
 .intro_slide_img{
@@ -103,8 +132,9 @@ p {
 }
 
 .intro_captext {
-  color: #000000;
-  font-size: 15px;
+  font-family: Georgia, serif;
+  color: white;
+  font-size: 0.7982969664715274vw;
   padding: 4px 12px;
   padding-bottom: 0px;
   bottom: 8px;
@@ -112,8 +142,14 @@ p {
   margin-left: 15vh;
 }
 
+.intro_captext2 {
+  font-family: Georgia, serif;
+  color: white;
+  font-size: 0.7982969664715274vw;
+}
+
 .intro_next {
-    text-align: center;
+  text-align: center;
 }
 
 /* Fading animation */
@@ -160,19 +196,24 @@ p {
 }
 
 #mtv_p{
+  font-family: Georgia, serif;
   width: 50%;
   text-align: center;
   margin: auto;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
 }
 
 /*1995-1996*/
 .stage_3 {
   position: relative;
-  background-color: rgb(228, 201, 112);
+  background-color: #EA738DFF;
   color: black;
   height: 100vh;
 }
 .text_sneuuw {
+  font-family: Georgia, serif;
   font-size: 0.7982969664715274vw;
   width: 80vh;
   position: relative;
@@ -233,9 +274,10 @@ p {
 
 .flash_image {
   vertical-align: top;
-  display: inline-block;
+  float: left;
   text-align: center;
   position: relative;
+  bottom: 5.32197977647685vw;
 }
 
 .Mc_image {
@@ -243,13 +285,13 @@ p {
   text-align: center; 
   float: right;
   position: relative;
+  bottom: 5.32197977647685vw;
 }
 
 #flash {
   position: relative;
   width: 26.609898882384247vw;
   height: 21.2879191059074vw;
-  float: left;
   max-width: 100%;
 }
 
@@ -257,27 +299,38 @@ p {
   position: relative;
   width: 26.609898882384247vw;
   height: 21.2879191059074vw;
-  float: right;
   max-width: 100%;
 }
 
 /* svg stage */
 .svg_stage {
   height: 100vh;
-  background-image: url("https://cdn.discordapp.com/attachments/940686231933714443/1081918972817068082/200617-D-ZW071-0002.png");
+  position: relative;
+}
+.svg_stage::before {    
+  content: "";
+  background-image: url("https://media.discordapp.net/attachments/940686231933714443/1082363317936472186/vector_raster_1.png");
   background-size: cover;
   background-size: 100vw;
   background-repeat:no-repeat;
-  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
 }
 
 .text_svg {
+  
+  font-family: Georgia, serif;
   font-size: 0.7982969664715274vw;
   width: 80vh;
   text-align: left;
   position: relative;
   top: 10.6439595529537vw;
   color: black;
+  text-shadow: 0 0 5px white;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
@@ -317,8 +370,8 @@ p {
 }
 .verhaalparallax {
   width: 80%;
-  font-family: Century;
-  font-size: 20px;
+  font-family: Georgia, serif;
+  font-size: 1.06439595529537vw;
   position: relative;
   bottom: 80%;
   color: white;
@@ -328,16 +381,21 @@ p {
 
 /* 2010-2015 stage                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .resp_design{
-    text-align: center;
-    background-color: #eeeeeea0;
-    height: 125vh; 
+  text-align: center;
+  background-color: #A7BEAE;
+  height: 125vh; 
 }
 
 .resp_p {
-     width:60vh;
-     padding-top: 5vh;
-    
-} 
+ font-family: Georgia, serif;
+ font-size: 0.7982969664715274vw;
+ width:60vh;
+ padding-top: 5vh;
+ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -381,7 +439,8 @@ p {
 /* Caption text */
 .capText {
   color: #000000;
-  font-size: 15px;
+  font-family: Georgia, serif;
+  font-size: 0.7982969664715274vw;
   padding: 8px 12px;
   bottom: 8px;
   width: 100%;
