@@ -66,7 +66,7 @@ var aText = new Array(
 
     //Make link appear.
     let mainLink = document.getElementById('main_link')
-    let time = 20000 // time in milliseconds
+    let time = 30000 // time in milliseconds
     mainLink.hidden = true // set link to hidden on load
     setTimeout(()=> {
       mainLink.hidden = false // after timeout show link
