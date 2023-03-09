@@ -28,7 +28,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//For the HTML + CSS slideshow
+//Voor de HTML + CSS slideshow
 let intro_slideIndex = 1;
 showDivs(intro_slideIndex);
 

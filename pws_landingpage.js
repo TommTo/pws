@@ -21,14 +21,21 @@ function hideButton(x)
 var aText = new Array(
     "Lang geleden, in 1989, een tijd waarin communicatie beperkt was en informatie schaars, ontstond er een visie die de wereld voorgoed zou veranderen. ", 
     "Het was een visie die uitging van de kracht van verbinding, van het samenbrengen van mensen en informatie op een manier die eerder ondenkbaar was.",
-    "Zo werd de Wereldwijde Web geboren, een netwerk dat de wereld omarmde en de grenzen van tijd en ruimte deed vervagen. ",
+    "Zo werd de Wereldwijde Web geboren, een netwerk dat de wereld omarmde en de grenzen van tijd en ruimte deed vervagen.",
+    "Het was een revolutie die zijn weerga niet kende.",
     "",
-    "Met een simpele klik van een knop kan men tegenwoordig verbonden worden met informatie en mensen van over de hele wereld.",
-    "Maar dat was lang niet het geval."
+    "In de afgelopen 30 jaar zijn de design trends van interactieve websites heel erg veranderd. Het begon bij simpele websites met alleen maar tekst.",
+    "Vervolgens kwamen er steeds meer nieuwe technieken en programma’s uit om alle soorten design trends te ontwikkelen, designs werden ingewikkelder en gedetailleerder",
+    "Zo heeft het wereldwijd web de huidige situatie bereikt.",
+    "",
+    "Onze doel met de volgende simulatie is om de ontwikkelingen in webdesign weer te geven op een schematische wijze.",
+    "",
+    "Dit is een line-mode browser. Dit is hoe het internet daaruit zag in 1989.",
+    "",
 
     
     );
-    var iSpeed = 30; // time delay of print out, zet straks weer op 30
+    var iSpeed = 20; // time delay of print out, zet straks weer op 30
     var iIndex = 0; // start printing array at this posision
     var iArrLength = aText[0].length; // the length of the text array
     var iScrollAt = 20; // start scrolling up at this many lines
